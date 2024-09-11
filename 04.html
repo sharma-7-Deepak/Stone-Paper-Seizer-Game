@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/04praject.css">
+</head>
+<body>
+    <div>
+    <h1>Bat Ball Stump Game :- </h1>
+
+    <button onclick="alert('You Choose Stone');
+    let random1 = Math.floor(Math.random() * 3) + 1;
+    if(random1  == 1){
+        alert('Tie!\nComputer Choose Stone');
+    }else if(random1 == 2){
+        alert('You Loose!\nComputer Choose Paper');
+        
+    }else if(random1 == 3){
+        alert('You Win!\nComputer Choose Seizer');
+
+    }">Stone</button> 
+    
+    
+    <button onclick="alert('You Choose Paper');
+    random1 = Math.floor(Math.random() * 3) + 1;
+    if(random1  == 1){
+        alert('You Win!\nComputer Choose Stone');
+    }else if(random1 == 2){
+        alert('Tie!\nComputer Choose Paper');
+        
+    }else if(random1 == 3){
+        alert('You Loose!\nComputer Choose Seizer');
+
+    }">Paper</button> <button onclick="alert('You Choose Stone');
+    random1 = Math.floor(Math.random() * 3) + 1;
+    if(random1  == 1){
+        alert('You Loose!\nComputer Choose Stone');
+    }else if(random1 == 2){
+        alert('You Win!\nComputer Choose Paper');
+        
+    }else if(random1 == 3){
+        alert('Tie!\nComputer Choose Seizer');
+
+    }">Seizer</button>
+</div>
+</body>
+<script>
+
+</script>
+</html>

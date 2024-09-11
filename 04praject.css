@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: rgb(220, 139, 33);
+    justify-content: center;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    margin-top: 50%;
+    margin-left:2rem;
+    width: 20%;
+    height: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 130%;
+    background-color: rgb(221, 196, 164);
+
+}
+button:hover{
+    cursor: pointer;
+    font-weight: bolder;
+
+}
